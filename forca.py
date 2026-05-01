@@ -26,8 +26,8 @@ def desbloquearLetra(letra,palavra_oculta,palavra_sorteada):
 
 #listas
 
-comidas = ['arroz','feijao','macarrao','pizza','hamburguer','sushi','lasanha','tapioca','cuscuz','salada','frango','carne','peixe','omelete',\
-'panqueca','queijo','batata','cenoura','brocolis','abacaxi','banana','estrogonofe','laranja','sorvete','morango','chocolate','sorvete','bolo','biscoito','pastel']
+comidas = ['arroz','feijao','churrasco','pizza','hamburguer','sushi','lasanha','tapioca','cuscuz','salada','frango','carne','peixe','omelete',\
+'panqueca','queijo','batata','cenoura','brocolis','abacaxi','banana','strogonoff','laranja','sorvete','morango','chocolate','sorvete','bolo','biscoito','pastel']
 
 # palavra_sorteada = random.choice(comidas)
 
@@ -41,6 +41,7 @@ while jogando == True:
     palavra_oculta= '_' * len(palavra_sorteada)
     vidas = 6
     rodando = True
+    print (palavra_oculta)
 
     while rodando == True:
         if vidas == 0:
